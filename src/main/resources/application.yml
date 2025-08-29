@@ -1,0 +1,13 @@
+app:
+  # put YOUR real details here if needed
+  name: "John Doe"
+  regNo: "REG12347"   # last two digits decide the question → 47 (odd) => Question 1
+  email: "john@example.com"
+
+bfhl:
+  generate-url: "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA"
+  # we will POST the final answer to the webhook URL returned by the above call
+logging:
+  level:
+    root: INFO
+    com.example.bfhl: DEBUG
