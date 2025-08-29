@@ -12,14 +12,14 @@ Spring Boot app that:
 # Build
 mvn -q -DskipTests package
 
-# Run (override your details if you want)
-BFH_NAME="John Doe" BFH_REGNO="REG12347" BFH_EMAIL="john@example.com" java -jar target/bfh-qualifier1-java-1.0.0.jar
+
+BFH_NAME="Manish Kumar Shukla" BFH_REGNO="22BCY10065" BFH_EMAIL="manishkumarshukla2022@vitbhopal.ac.in" java -jar target/bajaj-finserv-health-solution-1.0.0.jar
 ```
 
 Environment variables:
-- `BFH_NAME` (default: `John Doe`)
-- `BFH_REGNO` (default: `REG12347`)
-- `BFH_EMAIL` (default: `john@example.com`)
+- `BFH_NAME` (default: `Manish Kumar Shukla`)
+- `BFH_REGNO` (default: `22BCY10065`)
+- `BFH_EMAIL` (default: `manishkumarshukla2022@vitbhopal.ac.in`)
 - `BFH_USE_BEARER` set to `true` to prefix the token with `Bearer ` (default: **false**, as per spec).
 
 ## Endpoints used (as per problem)
@@ -27,7 +27,7 @@ Environment variables:
 - POST `https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA`
   Body:
   ```json
-  { "name": "John Doe", "regNo": "REG12347", "email": "john@example.com" }
+  { "name": "Manish Kumar Shukla", "regNo": "22BCY10065", "email": "manishkumarshukla2022@vitbhopal.ac.in" }
   ```
   Response (example):
   ```json
