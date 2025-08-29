@@ -35,9 +35,9 @@ public class StartupRunner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) {
         try {
-            String name = System.getenv().getOrDefault("BFH_NAME", "John Doe");
-            String regNo = System.getenv().getOrDefault("BFH_REGNO", "REG12347");
-            String email = System.getenv().getOrDefault("BFH_EMAIL", "john@example.com");
+            String name = System.getenv().getOrDefault("BFH_NAME", "Manish Kumar Shukla");
+            String regNo = System.getenv().getOrDefault("BFH_REGNO", "22BCY10065");
+            String email = System.getenv().getOrDefault("BFH_EMAIL", "manishkumarshukla2022@vitbhopal.ac.in");
             boolean useBearer = Boolean.parseBoolean(System.getenv().getOrDefault("BFH_USE_BEARER", "false"));
 
             log.info("Generating webhook...");
