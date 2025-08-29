@@ -1,0 +1,6 @@
+com\example\bfh\Application.class
+com\example\bfh\model\GenerateWebhookResponse.class
+com\example\bfh\model\GenerateWebhookRequest.class
+com\example\bfh\StartupRunner.class
+com\example\bfh\client\ApiClient$FinalQuery.class
+com\example\bfh\client\ApiClient.class
